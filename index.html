@@ -1,0 +1,94 @@
+# public
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>DEV TECH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        audio, video {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página Web</h1>
+        <h1>Criado: Francisco Taylon<h1>
+        <h2>Um exemplo de estrutura semântica em HTML</h2>
+        <p>Esta página demonstra a utilização de tags HTML semânticas e estilos básicos inline.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#artigo">Artigo</a></li>
+            <li><a href="#secao">Seção</a></li>
+            <li><a href="#midia">Mídia</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="artigo">
+            <h2>Artigo Principal</h2>
+            <p>Este é o conteúdo do meu artigo principal. Aqui você pode escrever um texto sobre qualquer assunto de seu interesse.</p>
+        </article>
+
+        <section id="secao">
+            <h3>Seção Informativa</h3>
+            <ul>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceiro item da lista</li>
+            </ul>
+        </section>
+
+        <section id="midia">
+            <h3>Seção de Mídia</h3>
+            <audio controls>
+                <source src="audio/exemplo.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <video controls width="320" height="240">
+                <source src="video/exemplo.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </section>
+    </main>
+</body>
+</html>
